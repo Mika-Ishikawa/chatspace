@@ -35,10 +35,8 @@
             color: #ffffff;
             margin-left: 5px;
             text-decoration: none;
-          }
-        }
-      }
-  }
+          }}}}
+
   &__group-list {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
@@ -56,10 +54,7 @@
         margin-top: 5px;
         padding-bottom: 40px;
         padding-left: 20px;
-      }
-    }
-  }
-}
+      }}}}
 
 .main-chat{
   background-color: #ffffff;
@@ -94,9 +89,8 @@
           text-decoration: none;
           margin-right: 40px;
           padding: 28px 20px;
-        }
-      }
-  }
+        }}}
+
   &__message-list {
     background-color: #fafafa;
     height: calc(100vh - 190px);
@@ -118,10 +112,8 @@
       &__text {
         color: #434a54;
         font-size: 14px;
-        }
-      }
-    }
-  }
+        }}}}
+
   &__message-form {
     background-color: #d2d2d2;
     height: 90px;
@@ -151,9 +143,7 @@
           left: 750px;
           &__file {
             display: none;
-          }
-        }
-      }
+          }}}
       
       &__bottom-btn {
         background-color: #38aef0;
@@ -163,10 +153,7 @@
         text-decoration: none;
         cursor: pointer;
         margin-left: 15px;
-      }
-    }
-  }
-}
+      }}}}
 
 
 
