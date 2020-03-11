@@ -1,0 +1,54 @@
+.main-chat
+  .main-chat__group-name
+    .current-group
+      .current-group__name
+        3月9日
+      .current-group__menber
+        Menber : masa
+    .edit-btn
+      = link_to "#", class:"edit-btn__content" do
+        Edit
+  .main-chat__message-list
+    .message
+      .message__info
+        .user-name
+          masa
+        .created-at
+          2020/03/09(Mon) 21:04:30
+      .message__text
+        瞳を閉じればあなたが
+    .message
+      .message__info
+        .user-name
+          masa
+        .created-at
+          2020/03/09(Mon) 21:04:30
+      .message__text
+        まぶたの裏にいることで
+    .message
+      .message__info
+        .user-name
+          masa
+        .created-at
+          2020/03/09(Mon) 21:04:30
+      .message__text
+        どれほど強くなれたでしょう
+    .message
+      .message__info
+        .user-name
+          masa
+        .created-at
+          2020/03/09(Mon) 21:04:30
+      .message__text
+        あなたにとって私もそうでありたい
+  .main-chat__message-form
+    %form.bottom-form
+      .bottom-form__input-box
+        %input{type: "text", class: "bottom-form__input-box__message", placeholder: "type a message"}
+        %label{class: "bottom-form__input-box__icon"}
+          = icon('far','image')
+          %input{type: "file", class: "bottom-form__input-box__icon__file"}
+      %input{type: "submit", class: "bottom-form__bottom-btn"}
+
+
+

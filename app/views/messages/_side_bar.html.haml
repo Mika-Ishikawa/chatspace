@@ -1,0 +1,16 @@
+.side-bar
+  .side-bar__user-name
+    .top-items
+      .top-items__name
+        masa
+      .top-items__icon
+        = link_to "#" do
+          = icon('far','edit', class: 'edit')
+        = link_to "#" do
+          = icon('fas','cog', class: 'setting')
+  .side-bar__group-list
+    = link_to "#", class:"group-box" do
+      .group-box__group-name
+        3月9日
+      .group-box__message
+        あなたにとって私もそうでありたい
