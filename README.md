@@ -31,10 +31,10 @@
 ## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|body|string|null: false|
+|content|string|null: false|
 |image|string||
-|user|reference|null: false,  foreign_key: true|
-|group|reference|null: false,  foreign_key: true|
+|group|references|null: false,  foreign_key: true|
+|user|references|null: false,  foreign_key: true|
 ### Assosiation
 - belongs_to :user
 - belongs_to :group
