@@ -10,8 +10,9 @@
           = icon('fas','cog', class: 'setting')
   .side-bar__group-list
     - current_user.groups.each do |group|
-      = link_to "#", class:"group-box" do
-        .group-box__group-name
-          = group.name
-        .group-box__message
-          メッセージはまだありません
+      .group-box
+        = link_to group_messages_path(group) do
+          .group-box__group-name
+            = group.name
+          .group-box__message
+            メッセージはまだありません
