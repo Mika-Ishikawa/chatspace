@@ -43,12 +43,12 @@
     height: calc(100vh - 100px);
     .group-box {
       font-weight: bold;
-      text-decoration: none;
       &__group-name {
         color: #ffffff;
         font-size: 15px;
         padding-top: 20px;
         padding-left: 20px;
+        text-decoration: none;
       }
       &__message {
         color: #ffffff;
@@ -56,6 +56,7 @@
         margin-top: 5px;
         padding-bottom: 40px;
         padding-left: 20px;
+        text-decoration: none;
       }
     }}}
 
