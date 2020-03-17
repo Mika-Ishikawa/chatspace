@@ -2,9 +2,10 @@
   .main-chat__group-name
     .current-group
       .current-group__name
-        3月9日
+        = @group.name
       .current-group__menber
-        Menber : masa
+        - @group.users.each do |user|
+          = user.name
     .edit-btn
       = link_to edit_group_path(current_user), class:"edit-btn__content" do
         Edit
