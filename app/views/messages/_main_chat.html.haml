@@ -17,7 +17,7 @@
       .bottom-form__input-box
         = form_for [@group, @message] do |f|
           = f.text_field :content, class: "bottom-form__input-box__message", placeholder: "type a message"
-          = f.label class: "bottom-form__input-box__icon" do
+          = f.label :image, class: "bottom-form__input-box__icon" do
             = icon('far','image', class: 'bottom-form__input-box__icon')
             = f.file_field :image, class: "bottom-form__input-box__icon__file"
-          = f.submit class: "bottom-form__bottom-btn"
+          = f.submit class: "bottom-form__input-box__bottom-btn"
