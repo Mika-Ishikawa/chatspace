@@ -73,11 +73,10 @@ $(function(){
       $('.main-chat__message-list').append(html);
       $('.main-chat__message-list').animate({ scrollTop: $('.main-chat__message-list')[0].scrollHeight});
       $('form')[0].reset();
+      $('.bottom-form__input-box__bottom-btn').prop("disabled", false);
     })
     .fail(function() {
-      alert("メッセージ送信に失敗しました");
-    })
-    .always(function(){
+      alert("メッセージ送信に失敗しました")
       $('.bottom-form__input-box__bottom-btn').prop("disabled", false);
     })
   });
